@@ -201,6 +201,16 @@ nav.open {
 	font-family: 'Roboto Mono', monospace;
 }
 
+.animateUp {
+	transform: translateY(150px);
+	animation: animateUp 1s ease forwards;
+}
+
+@keyframes animateUp {
+	to { transform: translateY(0); }
+}
+
+
 /* About Content */
 #aboutContent {
 	padding-left: 200px;
