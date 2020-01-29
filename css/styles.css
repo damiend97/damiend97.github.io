@@ -210,6 +210,10 @@ nav.open {
 	to { transform: translateY(0); }
 }
 
+b {
+	color: gray;
+	font-style: italic;
+}
 
 /* About Content */
 #aboutContent {
@@ -353,7 +357,7 @@ nav.open {
 }
 
 /* Contact Content */
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
 	background: #333333;
 	border: 3px solid gray;
 	border-radius: 5px;
@@ -371,7 +375,7 @@ input[type=text], textarea {
 	text-align: center;
 	margin-bottom: 25px;
 }
-input[type=text]:focus, textarea:focus {
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
 	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 	padding: 10px;
 }
@@ -395,6 +399,7 @@ input[type=submit] {
 }
 input[type=submit]:hover {
 	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	cursor: pointer;
 }
 #message {
 	height: 200px;
