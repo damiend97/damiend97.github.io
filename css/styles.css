@@ -248,6 +248,7 @@ b {
 .card:hover {
 	box-shadow: 5px 5px 5px rgb(255, 170, 0);
 	color: #ffaa00;
+	cursor: pointer;
 }
 .cardOverlay {
 	background: rgba(0, 0, 0, .8);
@@ -271,6 +272,7 @@ b {
 .cardOverlay a {
 	text-decoration: none;
 	color: yellow;
+	cursor: e-resize;
 }
 .cardOverlay span {
 	color: red;
